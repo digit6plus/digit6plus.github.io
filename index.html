@@ -1,0 +1,521 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robert Martin Sim | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />	
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="fa fa-calculator fa-2x"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Robert Martin Sim</h1>
+								<p>Empowering data-driven decisions: Experienced teacher now transitioning to data analytics with knowledge in <br> Excel, SQL, Tableau, R, PowerBI and UiPath</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#project">Project</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About Me</h2>
+								<p align="justify">As an experienced teacher, I am excited to announce my transition to the field of data analytics. My skillset includes proficiency in Excel, SQL, Tableau, PowerBI, R, and UiPath. I am eager to apply my problem-solving abilities and attention to detail to tackle data-driven challenges and help organizations make informed decisions. I am looking forward to learning and growing in this new field.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work History</h2>
+								<style>
+									.container {
+									  display: flex;
+									  flex-direction: row;
+									  align-items: flex-start;
+									}
+									
+									.button-container {
+									  margin-right: 20px;
+									  display: flex;
+    								flex-direction: column;
+									}
+								  </style>
+								  
+								  <div class="container">
+									<div class="button-container">
+									  <button onclick="showParagraph(1)">2019 - Present</button>
+									  <button onclick="showParagraph(2)">2018 - 2019</button>
+									  <button onclick="showParagraph(3)">2016 - 2018</button>
+									</div>
+									<div class="paragraph-container">
+										<p id="paragraph1" style="display:none" align = "justify">
+											Work Place:  <b>Cebu Institute of Technology - University</b><br>
+											Position: <b>Senior High School Faculty</b><br><br>
+											• Drived academic improvements by being proficient in Excel <b>data visualization</b> for swift pattern identification and informed decision-making<br><br>
+											• Efficiently managed and analyzed extensive student data sets using Excel's <b> PivotTables and conditional formatting functions </b>, resulting in streamlined processes and improved data accuracy, showcasing a strong ability to tackle complex challenges with ease.<br><br>
+											• Maximized grade encoding efficiency with <b>UiPath RPA tool</b>, exemplifying a commitment to leveraging advanced technologies to achieve optimal outcome.
+										</p>
+
+										<p id="paragraph2" style="display:none" align = "justify">
+											Work Place:  <b>University of San Jose- Recoletos</b><br>
+											Position: <b>Senior High School Faculty</b><br><br>
+											• <b>Collaborated</b> effectively with fellow educators to exchange critical data and insights, driving informed decision-making and fostering a culture of continuous improvement, highlighting exceptional teamwork and communication skills<br><br>
+											• Employed Excel data analysis to identify and address achievement gaps among students, exemplifying a passion for <b>data-driven decision-making</b> and a commitment to promoting equity in education
+										</p>
+									  
+										<p id="paragraph3" style="display:none" align = "justify">
+											Work Place:  <b>Coca-Cola FEMSA</b><br>
+											Position: <b>Quality Assurance Analyst</b><br><br>
+											• Adeptly leveraged Excel's robust functions to efficiently manage and <b>analyze extensive data sets</b> collected during quality testing, resulting in enhanced accuracy and efficiency in decision making, reflecting a strong analytical mindset and an ability to thrive in fast-paced environments<br><br>
+											• Utilized Excel's powerful <b>data visualization tools</b> to proactively identify trends and patterns, resulting in the prevention of production of faulty batches, showcasing a keen attention to detail and a commitment to quality assurance.<br><br>
+											• Consistently delivering comprehensive quality control reports to key stakeholders throughout the production process, highlighting critical metrics such as Brix levels and gas content, demonstrating strong <b>communication skills</b> and a deep understanding of the importance of data-driven decision making
+										</p>
+									</div>
+								  </div>
+								  
+								  <script>
+									function showParagraph(paragraphNumber) {
+									  // Hide all paragraphs
+									  for (let i = 1; i <= 3; i++) {
+										document.getElementById("paragraph" + i).style.display = "none";
+									  }
+									  // Show the clicked paragraph
+									  document.getElementById("paragraph" + paragraphNumber).style.display = "block";
+									}
+									
+									// Hide all paragraphs on page load
+									window.onload = function() {
+									  for (let i = 1; i <= 3; i++) {
+										document.getElementById("paragraph" + i).style.display = "none";
+									  }
+									}
+								  </script>
+								  
+								
+							</article>
+
+						<!-- Project -->
+							<article id="project">
+								<h2 class="major">Projects and Certs</h2>
+								<p>
+									<style>
+									
+									.small {
+										max-width: 200px;
+										max-height: 200px;
+										cursor: pointer;
+										transition: all 0.3s ease;
+										}
+
+										.small:hover {
+										opacity: 0.7;
+										}
+
+									/* The Modal (background) */
+									.modal {
+									display: none;
+									position: fixed;
+									z-index: 999;
+									padding-top: 50px;
+									left: 0;
+									top: 0;
+									width: 100%;
+									height: 100%;
+									overflow: auto;
+									backdrop-filter: blur(5px);
+									}
+
+									/* Modal Content */
+									.modal-content {
+									max-width: 100%;
+									max-height: 100%;
+									margin: auto;
+									display: block;
+									overflow-y: auto;
+									}
+
+									.modal-content img {
+									max-width: 100%;
+									max-height: 100%;
+									object-fit: contain;
+									}
+
+									/* The Close Button */
+									.close {
+									color: #fff;
+									position: absolute;
+									top: 10px;
+									right: 25px;
+									font-size: 35px;
+									font-weight: bold;
+									transition: all 0.3s;
+									}
+
+									.close:hover,
+									.close:focus {
+									color: #bbb;
+									text-decoration: none;
+									cursor: pointer;
+									}
+
+								</style>
+								<script>
+									function openModal(filename) {
+									// Get the modal element
+									var modal = document.getElementById('myModal');
+									
+									// Get the image element
+									var img = document.getElementById('modalImage');
+									
+									// Set the source of the image to the clicked image
+									img.src = filename;
+									
+									// Display the modal
+									modal.style.display = "block";
+									}
+
+									function closeModal() {
+									// Get the modal element
+									var modal = document.getElementById('myModal');
+									
+									// Hide the modal
+									modal.style.display = "none";
+									}
+
+								</script>
+									
+									<div>
+										• PivotTables:<br><img src="images/Pivot Table 1.png" onclick="openModal('images/Pivot Table 1.png')" class="small">
+										<img src="images/Pivot Table 2.png" onclick="openModal('images/Pivot Table 2.png')" class="small"><br>
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+									</div>
+									<br>• PowerBI Dashboard:
+									<div>
+										<img src="images/PowerBI Dashboard.png" onclick="openModal('images/PowerBI Dashboard.png')" class="small">
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+										</div>
+									<br>• <a href="https://digit6plus.github.io/BikeSharingCaseStudy/">Bike-Sharing Case Study using <b>R</b></a><br><br>
+									• <a href="https://github.com/digit6plus/uipath-GradeEncode">Automated Encoding of Grades using <b>UiPath</b></a><br><br>
+									
+									• <b>Certificates</b>
+									<div>
+										<img src="images/GDAC.jpg" onclick="openModal('images/GDAC.jpg')" class="small">
+										<img src="images/MO200 Excel Associate_page-0001.jpg" onclick="openModal('images/MO200 Excel Associate_page-0001.jpg')" class="small">
+										<img src="images/Power BI Desktop Essentials Certificate_page-0001.jpg" onclick="openModal('images/Power BI Desktop Essentials Certificate_page-0001.jpg')" class="small">
+										<img src="images/Web Scraping through Power Query Certificate_page-0001.jpg" onclick="openModal('images/Web Scraping through Power Query Certificate_page-0001.jpg')" class="small">
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+										</div>
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact Details</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/robertmartinsim/" class="icon brands fa-linkedin"></a>  LinkedIn: Robert Martin Sim</li><br><br>
+									<li><a href="mailto:robertmartinsim@gmail.com" class=" fa fa-envelope"></a>  Email address: robertmartinsim@gmail.com</li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
