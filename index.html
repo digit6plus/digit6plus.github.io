@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robert Martin Sim | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />	
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="fa fa-calculator fa-2x"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Robert Martin Sim</h1>
+								<p>Empowering data-driven decisions: Experienced teacher now transitioning to data analytics with knowledge in <br> Excel, SQL, Tableau, R, PowerBI and UiPath</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#project">Project</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About Me</h2>
+								<p align="justify">As an experienced teacher, I am excited to announce my transition to the field of data analytics. My skillset includes proficiency in Excel, SQL, Tableau, PowerBI, R, and UiPath. I am eager to apply my problem-solving abilities and attention to detail to tackle data-driven challenges and help organizations make informed decisions. I am looking forward to learning and growing in this new field.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work History</h2>
+								<style>
+									.container {
+									  display: flex;
+									  flex-direction: row;
+									  align-items: flex-start;
+									}
+									
+									.button-container {
+									  margin-right: 20px;
+									  display: flex;
+    								flex-direction: column;
+									}
+								  </style>
+								  
+								  <div class="container">
+									<div class="button-container">
+									  <button onclick="showParagraph(1)">2019 - Present</button>
+									  <button onclick="showParagraph(2)">2018 - 2019</button>
+									  <button onclick="showParagraph(3)">2016 - 2018</button>
+									</div>
+									<div class="paragraph-container">
+										<p id="paragraph1" style="display:none" align = "justify">
+											Work Place:  <b>Cebu Institute of Technology - University</b><br>
+											Position: <b>Senior High School Faculty</b><br><br>
+											• Drived academic improvements by being proficient in Excel <b>data visualization</b> for swift pattern identification and informed decision-making<br><br>
+											• Efficiently managed and analyzed extensive student data sets using Excel's <b> PivotTables and conditional formatting functions </b>, resulting in streamlined processes and improved data accuracy, showcasing a strong ability to tackle complex challenges with ease.<br><br>
+											• Maximized grade encoding efficiency with <b>UiPath RPA tool</b>, exemplifying a commitment to leveraging advanced technologies to achieve optimal outcome.
+										</p>
+
+										<p id="paragraph2" style="display:none" align = "justify">
+											Work Place:  <b>University of San Jose- Recoletos</b><br>
+											Position: <b>Senior High School Faculty</b><br><br>
+											• <b>Collaborated</b> effectively with fellow educators to exchange critical data and insights, driving informed decision-making and fostering a culture of continuous improvement, highlighting exceptional teamwork and communication skills<br><br>
+											• Employed Excel data analysis to identify and address achievement gaps among students, exemplifying a passion for <b>data-driven decision-making</b> and a commitment to promoting equity in education
+										</p>
+									  
+										<p id="paragraph3" style="display:none" align = "justify">
+											Work Place:  <b>Coca-Cola FEMSA</b><br>
+											Position: <b>Quality Assurance Analyst</b><br><br>
+											• Adeptly leveraged Excel's robust functions to efficiently manage and <b>analyze extensive data sets</b> collected during quality testing, resulting in enhanced accuracy and efficiency in decision making, reflecting a strong analytical mindset and an ability to thrive in fast-paced environments<br><br>
+											• Utilized Excel's powerful <b>data visualization tools</b> to proactively identify trends and patterns, resulting in the prevention of production of faulty batches, showcasing a keen attention to detail and a commitment to quality assurance.<br><br>
+											• Consistently delivering comprehensive quality control reports to key stakeholders throughout the production process, highlighting critical metrics such as Brix levels and gas content, demonstrating strong <b>communication skills</b> and a deep understanding of the importance of data-driven decision making
+										</p>
+									</div>
+								  </div>
+								  
+								  <script>
+									function showParagraph(paragraphNumber) {
+									  // Hide all paragraphs
+									  for (let i = 1; i <= 3; i++) {
+										document.getElementById("paragraph" + i).style.display = "none";
+									  }
+									  // Show the clicked paragraph
+									  document.getElementById("paragraph" + paragraphNumber).style.display = "block";
+									}
+									
+									// Hide all paragraphs on page load
+									window.onload = function() {
+									  for (let i = 1; i <= 3; i++) {
+										document.getElementById("paragraph" + i).style.display = "none";
+									  }
+									}
+								  </script>
+								  
+								
+							</article>
+
+						<!-- Project -->
+							<article id="project">
+								<h2 class="major">Projects and Certs</h2>
+								<p>
+									<style>
+									
+									.small {
+									max-width: 200px;
+									max-height: 200px;
+									cursor: pointer;
+									transition: all 0.3s ease;
+									}
+
+									.small:hover {
+									opacity: 0.7;
+									}
+
+									/* The Modal (background) */
+									.modal {
+									display: none;
+									position: fixed;
+									z-index: 999;
+									padding-top: 50px;
+									left: 0;
+									top: 0;
+									width: 100%;
+									height: 100%;
+									overflow: auto;
+									backdrop-filter: blur(5px);
+									}
+
+									/* Modal Content */
+									.modal-content {
+									max-width: 100%;
+									max-height: 100%;
+									margin: auto;
+									display: block;
+									overflow-y: auto;
+									}
+
+									.modal-content img {
+									max-width: 100%;
+									max-height: 100%;
+									object-fit: contain;
+									}
+
+									/* The Close Button */
+									.close {
+									color: #fff;
+									position: absolute;
+									top: 10px;
+									right: 25px;
+									font-size: 35px;
+									font-weight: bold;
+									transition: all 0.3s;
+									}
+
+									.close:hover,
+									.close:focus {
+									color: #bbb;
+									text-decoration: none;
+									cursor: pointer;
+									}
+
+								</style>
+								<script>
+									function openModal(filename) {
+									// Get the modal element
+									var modal = document.getElementById('myModal');
+									
+									// Get the image element
+									var img = document.getElementById('modalImage');
+									
+									// Set the source of the image to the clicked image
+									img.src = filename;
+									
+									// Display the modal
+									modal.style.display = "block";
+									}
+
+									function closeModal() {
+									// Get the modal element
+									var modal = document.getElementById('myModal');
+									
+									// Hide the modal
+									modal.style.display = "none";
+									}
+
+								</script>
+									
+									<div>
+										• PivotTables:<br>
+										<img src="images/Pivot Table 1.png" onclick="openModal('images/Pivot Table 1.png')" class="small">
+										<img src="images/Pivot Table 2.png" onclick="openModal('images/Pivot Table 2.png')" class="small"><br>
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+									</div>
+									<br>• PowerBI Dashboards:
+									<div>
+										<img src="images/PowerBI Dashboard.png" onclick="openModal('images/PowerBI Dashboard.png')" class="small">
+										<img src="images/Finance Report.png" onclick="openModal('images/Finance Report.png')" class="small">
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+										</div>
+									<br>• <a href="https://digit6plus.github.io/BikeSharingCaseStudy/">Bike-Sharing Case Study using <b>R</b></a><br><br>
+									• <a href="https://github.com/digit6plus/uipath-GradeEncode">Automated Encoding of Grades using <b>UiPath</b></a><br><br>
+									
+									• <b>Certificates</b>
+									<div>
+										<img src="images/GDAC.jpg" onclick="openModal('images/GDAC.jpg')" class="small">
+										<img src="images/MO200 Excel Associate_page-0001.jpg" onclick="openModal('images/MO200 Excel Associate_page-0001.jpg')" class="small">
+										<img src="images/Power BI Desktop Essentials Certificate_page-0001.jpg" onclick="openModal('images/Power BI Desktop Essentials Certificate_page-0001.jpg')" class="small">
+										<img src="images/Web Scraping through Power Query Certificate_page-0001.jpg" onclick="openModal('images/Web Scraping through Power Query Certificate_page-0001.jpg')" class="small">
+										</div>
+										<div id="myModal" class="modal">
+											<div class="modal-content">
+											<img id="modalImage">
+											</div>
+											<span class="close" onclick="closeModal()">&times;</span>
+										</div>
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact Details</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/robertmartinsim/" class="icon brands fa-linkedin"></a>  LinkedIn: Robert Martin Sim</li><br><br>
+									<li><a href="mailto:robertmartinsim@gmail.com" class=" fa fa-envelope"></a>  Email address: robertmartinsim@gmail.com</li>
+								</ul>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
